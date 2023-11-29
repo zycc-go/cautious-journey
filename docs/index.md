@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /markdown-examples
+      link: /guide/markdown-examples
     - theme: alt
       text: 在GitHub上查看
-      link: /api-examples
+      link: https://github.com/vuejs/vitepress
 
 features: 
   - icon: 📝
