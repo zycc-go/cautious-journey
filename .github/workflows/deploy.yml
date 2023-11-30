@@ -1,6 +1,6 @@
 # Sample workflow for building and deploying a VitePress site to GitHub Pages
 #
-name: 将VitePress网站部署到页面
+name: Deploy VitePress site to Pages
 
 on:
   # 在针对“main”分支的推送上运行。如果使用“master”分支作为默认分支，请将其更改为“master”。
@@ -14,7 +14,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: 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
+  id-token: write
 
 # 只允许一次并发部署，跳过在进行中的运行和最近排队的运行之间排队的运行
 # 但是，不要取消正在进行的运行，因为我们希望完成这些生产部署
