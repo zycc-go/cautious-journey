@@ -14,7 +14,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: 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
+  id-token: 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
 
 # 只允许一次并发部署，跳过在进行中的运行和最近排队的运行之间排队的运行
 # 但是，不要取消正在进行的运行，因为我们希望完成这些生产部署
