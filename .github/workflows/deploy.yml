@@ -28,12 +28,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # 如果未启用lastUpdated，则不需要
       # - 使用: pnpm/action-setup@v2 # 如果使用pnpm，请取消注释
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm # or pnpm / yarn
